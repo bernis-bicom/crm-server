@@ -6,6 +6,10 @@ const nextConfig = {
             {
                 source: '/crm',
                 destination: '/api/crm'
+            },
+            {
+                source: '/token',
+                destination: '/api/token'
             }     
         ];
     } 
