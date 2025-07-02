@@ -10,7 +10,11 @@ const nextConfig = {
             {
                 source: '/token',
                 destination: '/api/token'
-            }     
+            },
+            {
+                source: '/customers',
+                destination: '/api/customers'
+            },
         ];
     } 
 };
