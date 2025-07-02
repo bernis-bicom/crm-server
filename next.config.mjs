@@ -15,7 +15,11 @@ const nextConfig = {
                 source: '/customers',
                 destination: '/api/customers'
             },
-        ];
+            {
+                source: '/calllog',
+                destination: '/api/calllog'
+            },
+        ]
     } 
 };
 
